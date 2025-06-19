@@ -1,10 +1,15 @@
 main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:auto;
+}
 
+header, section, aside, article, footer, figure{
+    display: block;
 }
 
 nav ul{
     background-color:rgb(193, 188, 214);
+    width:auto;
 }
 
 nav ul li{
@@ -38,8 +43,8 @@ ul{
     left:0;
     height: 100%;
     width:150px;
-    background-image: linear-gradient(rgb(255, 255, 255) 0% , rgb(193, 188, 214) 100%); 
-    color:white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 0% , rgb(193, 188, 214) 100%); 
+    color:rgba(255, 255, 255, 0);
     writing-mode: vertical-rl;
     font-size: 25px;
     }
@@ -54,6 +59,7 @@ header{
 .one{
     margin-left: 200px;
     margin-right: 450px;
+    
 }
 
 .smaller-word{
@@ -64,7 +70,9 @@ header{
 
 .title{
     font-size:45px;
-    color:rgb(85, 73, 97)
+    color:rgb(85, 73, 97);
+    white-space: nowrap;
+
 }
 
 .picture{
