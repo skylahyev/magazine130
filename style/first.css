@@ -95,3 +95,11 @@ color:rgb(160, 156, 156);
 footer{
     font-size:10px;
 }
+
+
+@media only screen and (min-width:600px) and (max-width:1021px){
+    .container{
+        display: block;
+        margin-left:10px;
+     }
+}

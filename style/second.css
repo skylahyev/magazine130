@@ -50,6 +50,7 @@ ul{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+
 .author{
     text-align: center;
     font-size:15px;
@@ -64,7 +65,7 @@ ul{
       .section1, .section2{
         font-size: 18px;
         text-align: left;
-        font-family: 'Times New Roman', Times, serif;
+        font-family:'Times New Roman', Times, serif;
         margin:50px;
       }
 
@@ -84,4 +85,28 @@ ul{
 
     h2{
         font-size:40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    @media only screen and (max-width: 600px){
+        .container{
+           display: block;
+           margin-left:10px;
+        }
+
+        .paragraphs{
+            padding-right: 0px;
+        }
+    
+        .image-right{
+          
+        }
+       
+    }
+
+    @media only screen and (max-width: 768px){
+        .container{
+           display: block;
+           margin-left:10px;
+        }
     }
