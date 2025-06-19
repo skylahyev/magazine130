@@ -71,7 +71,7 @@ ul{
       .image-right{
         float:right;
         margin:10px;
-    align-content: center;
+        align-content: center;
       }
 
       .container{
@@ -80,4 +80,8 @@ ul{
         margin: auto;
         display: flex;
         align-items: center;
+    }
+
+    h2{
+        font-size:40px;
     }
