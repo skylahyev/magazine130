@@ -10,6 +10,8 @@ nav ul li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 nav ul li:hover{
      color: #ffffff;
 }
@@ -62,12 +64,14 @@ ul{
         display: flex;
       }
 
-      .section1, .section2{
+      .section1, .section2, .section3{
         font-size: 18px;
         text-align: left;
         font-family:'Times New Roman', Times, serif;
-        margin:50px;
+        margin:30px;
       }
+
+
 
       .image-right{
         float:right;
